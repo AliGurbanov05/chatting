@@ -232,7 +232,7 @@ async function startServer() {
 
   console.log('PostgreSQL bağlantısı uğurludur');
 
-  const port = Number(process.env.PORT) || 3000;
+  const port = Number(process.env.PORT) || 10000;
 
   httpServer.listen(port, '0.0.0.0', () => {
     console.log(`API və Socket.IO port ${port}-də işləyir`);
